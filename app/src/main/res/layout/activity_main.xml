@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="411dp"
+        android:layout_height="521dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginBottom="25dp"
+        tools:context=".MainActivity" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="245dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="85dp"
+        android:fontFamily="serif"
+        android:text="Negocios!"
+        android:textAlignment="center"
+        android:textColor="#3F51B5"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="243dp"
+        android:layout_marginTop="101dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="139dp"
+        android:onClick="cargarMarcadores"
+        android:text="Buscar" />
+
+    <Spinner
+        android:id="@+id/idSpinner"
+        android:layout_width="191dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="109dp"
+        android:layout_marginEnd="185dp"
+        android:entries="@array/tipoEstablecimiento"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</RelativeLayout>

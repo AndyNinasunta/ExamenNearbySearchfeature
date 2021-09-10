@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ExamenNearbySearchfeature</string>
+    <string-array name="tipoEstablecimiento">
+        <item>Seleccione</item>
+        <item>restaurant</item>
+        <item>dentist</item>
+        <item>cafe</item>
+        <item>bank</item>
+        <item>gym</item>
+    </string-array>
+</resources>
