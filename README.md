@@ -7,6 +7,7 @@ y Glide (para la personalización del marcador de GoogleMaps).
 
 ### Flujo de trabajo de la aplicación.
 A continuación se puede observar la interfaz principal de la aplicación. La cual tiene un Spinner, un Mapa de Google y un boton.
+
 ![alt text](https://github.com/AndyNinasunta/ExamenNearbySearchfeature/blob/master/1.PNG)
 
 Si el usuario da clic en el boton Buscar, sin haber seleccionado un filtro en el Spinner. Se cargarán todos los tipos de establecimientos que se encuentren en un radio de 100 metros.
